@@ -14,7 +14,7 @@ This document only briefly summarizes what variables are in what files.  For mor
 
 ## Patent Data
 
-#### Data Versions:
+#### Data Version:
 
 The version released on April 5, 2022 is the latest data.
 
@@ -99,7 +99,7 @@ The dataset also includes a host of financial information about the first assign
 - public - a binary variable indicating whether the firm had positive, non-missing market capitalization at the end (12/31) of the application year (1); this variable will be equal to 0 in years for which the firm did patent but did not have a market capitalization at the end (12/31) of the application year; it will be missing in all other years (including years in which the firm did not patent)
 - global_sifi - a binary variable indicating whether first assignee is a global SIFI
 - vc_backed - a binary variable indicating whether the firm received VC-funding at any point after January 1, 2000
-- division—the region of the country on which the first inventor was based.
+- division - the region of the country on which the first inventor was based.
 
 
 ## Contact:
