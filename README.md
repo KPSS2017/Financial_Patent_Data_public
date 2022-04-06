@@ -1,5 +1,9 @@
 # Financial Patent Data Set
 
+This repository provides the data set for the main results in Lerner J., Seru A., Short N., Sun Y., 2021. Financial Innovation in the 21st Century: Evidence from U.S. Patents. The paper is available at https://www.nber.org/system/files/working_papers/w28980/w28980.pdf.
+
+The folder ./data contains the main financial patent data set.
+
 ## General Notes
 
 Below, any data or aggregation done at the “year” level uses the patent application year, not the grant year.  The grant date is included as a variable in the patent-level dataset just in case it is needed, but all years  associated with other variables (VC-funding at the CSA-year level, revenue at the firm-year level, etc.) are based on the application year.  The main use of the grant date is in benchmarking forward cites at the patent-level (they are relative to average cites within the same CPC subclass and grant quarter).
